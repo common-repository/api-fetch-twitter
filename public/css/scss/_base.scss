@@ -1,0 +1,144 @@
+$a-tags: 'a, a:active, a:hover, a:visited';
+$a-tags-hover: 'a:active, a:hover';
+$scrollbar-color: #c7c1c1;
+$scrollbar-background: #bcd7fa;
+
+#api-fetch-twitter-header {
+
+	img {
+		width: 30px;
+		margin: 2px 0;
+	}
+	
+ background-color: #fff;
+ padding: 0.5em;
+ padding-bottom: 0;
+ box-shadow: 0 2px 8px -3px $scrollbar-color;
+ z-index: 9;
+ position: relative;
+ 
+}
+
+#api-fetch-twitter{
+ 
+ span, div {
+	color: #666;
+	font-family: inherit;
+ }
+ 
+ .retweeted-tweet {
+	margin-top: -0.2em;
+ }
+ 
+ .tweet {
+	border: 1px solid #e6dede;
+	padding: 0.3em 0.3em 0 0.3em;
+	border-radius: 8px;
+	margin: 0.3em 0;
+ }
+ 
+ #{$a-tags} {
+ 
+	text-decoration: none !important;
+	color: #666 !important;
+	font-family: inherit;
+	
+	img { 
+		border:none; 
+	}
+	
+ }
+ 
+ .user-retweet {
+    vertical-align: -3px;
+ }
+ 
+ .user-profile-image {
+     float: left;
+	 margin-right: 0.15em;
+	 border-radius: 4px;
+ }
+ 
+
+ 
+ .user-link {
+	color: #2c96df;
+  }
+  
+  .tweet-media {
+    display: block;
+	width: 100%;
+	height: auto;
+	margin: 0.15em 0 0.15em 0;
+  }
+  
+  .tweet-text {
+  
+	a { 
+		color: #2c96df !important;
+		font-family: inherit;
+	}
+	
+	#{$a-tags-hover} {
+		color: #5b5858 !important;
+	}
+	
+  }
+  
+  .tweet-action {
+  
+	img {
+		margin-right: 0.2em;
+	}
+	
+	.reply img {
+		vertical-align: -3px;
+	}
+	
+	.retweet img {
+		vertical-align: -3.5px
+	}
+	
+	.favorite img {
+		vertical-align: -1.5px;
+	}
+	
+	#{$a-tags-hover} {
+		color: #5b5858 !important;
+		font-family: inherit;
+	}
+	
+	a.reply, a.retweet, a.favorite {
+		font-size: inherit;
+		margin-right: 0.3em;
+	}
+	
+	margin-bottom: 0.3em;
+	
+  }
+  
+ height: 650px;
+ overflow-y: scroll;
+ overflow-x: hidden;
+ padding: 0.3em;
+ margin: 0;
+ font-family: Sura;
+ font-size: 15px;
+ font-weight: normal;
+ background-color: #fff;
+ scrollbar-width: thin;
+ scrollbar-color: $scrollbar-color $scrollbar-background;
+
+ &::-webkit-scrollbar {
+  width: 8px;
+ }
+
+ &::-webkit-scrollbar-track {
+  background: $scrollbar-background;
+ }
+
+ &::-webkit-scrollbar-thumb {
+  background-color: $scrollbar-color;
+ }
+ 
+}

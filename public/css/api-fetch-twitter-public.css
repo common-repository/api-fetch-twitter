@@ -1,0 +1,105 @@
+#api-fetch-twitter-header {
+  background-color: #fff;
+  padding: 0.5em;
+  padding-bottom: 0;
+  box-shadow: 0 2px 8px -3px #c7c1c1;
+  z-index: 9;
+  position: relative;
+}
+#api-fetch-twitter-header img {
+  width: 30px;
+  margin: 2px 0;
+}
+
+#api-fetch-twitter {
+  height: 650px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 0.3em;
+  margin: 0;
+  font-family: Sura;
+  font-size: 15px;
+  font-weight: normal;
+  background-color: #fff;
+  scrollbar-width: thin;
+  scrollbar-color: #c7c1c1 #bcd7fa;
+}
+#api-fetch-twitter span, #api-fetch-twitter div {
+  color: #666;
+  font-family: inherit;
+}
+#api-fetch-twitter .retweeted-tweet {
+  margin-top: -0.2em;
+}
+#api-fetch-twitter .tweet {
+  border: 1px solid #e6dede;
+  padding: 0.3em 0.3em 0 0.3em;
+  border-radius: 8px;
+  margin: 0.3em 0;
+}
+#api-fetch-twitter a, #api-fetch-twitter a:active, #api-fetch-twitter a:hover, #api-fetch-twitter a:visited {
+  text-decoration: none !important;
+  color: #666 !important;
+  font-family: inherit;
+}
+#api-fetch-twitter a img, #api-fetch-twitter a:active img, #api-fetch-twitter a:hover img, #api-fetch-twitter a:visited img {
+  border: none;
+}
+#api-fetch-twitter .user-retweet {
+  vertical-align: -3px;
+}
+#api-fetch-twitter .user-profile-image {
+  float: left;
+  margin-right: 0.15em;
+  border-radius: 4px;
+}
+#api-fetch-twitter .user-link {
+  color: #2c96df;
+}
+#api-fetch-twitter .tweet-media {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0.15em 0 0.15em 0;
+}
+#api-fetch-twitter .tweet-text a {
+  color: #2c96df !important;
+  font-family: inherit;
+}
+#api-fetch-twitter .tweet-text a:active, #api-fetch-twitter .tweet-text a:hover {
+  color: #5b5858 !important;
+}
+#api-fetch-twitter .tweet-action {
+  margin-bottom: 0.3em;
+}
+#api-fetch-twitter .tweet-action img {
+  margin-right: 0.2em;
+}
+#api-fetch-twitter .tweet-action .reply img {
+  vertical-align: -3px;
+}
+#api-fetch-twitter .tweet-action .retweet img {
+  vertical-align: -3.5px;
+}
+#api-fetch-twitter .tweet-action .favorite img {
+  vertical-align: -1.5px;
+}
+#api-fetch-twitter .tweet-action a:active, #api-fetch-twitter .tweet-action a:hover {
+  color: #5b5858 !important;
+  font-family: inherit;
+}
+#api-fetch-twitter .tweet-action a.reply, #api-fetch-twitter .tweet-action a.retweet, #api-fetch-twitter .tweet-action a.favorite {
+  font-size: inherit;
+  margin-right: 0.3em;
+}
+#api-fetch-twitter::-webkit-scrollbar {
+  width: 8px;
+}
+#api-fetch-twitter::-webkit-scrollbar-track {
+  background: #bcd7fa;
+}
+#api-fetch-twitter::-webkit-scrollbar-thumb {
+  background-color: #c7c1c1;
+}
+
+/*# sourceMappingURL=api-fetch-twitter-public.css.map */

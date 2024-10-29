@@ -1,0 +1,93 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: API Fetch Twitter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-12 13:40+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.0; wp-5.9.1\n"
+"X-Domain: api-fetch-twitter"
+
+#: admin/class-api-fetch-twitter-admin.php:121
+msgid "Aceess Secret"
+msgstr ""
+
+#: admin/class-api-fetch-twitter-admin.php:120
+msgid "Aceess Token"
+msgstr ""
+
+#: admin/class-api-fetch-twitter-admin.php:140
+msgid "API details successfully validated"
+msgstr ""
+
+#. Name of the plugin
+msgid "API Fetch Twitter"
+msgstr ""
+
+#: admin/class-api-fetch-twitter-admin.php:118
+msgid "API Key"
+msgstr ""
+
+#: admin/class-api-fetch-twitter-admin.php:119
+msgid "API Secret"
+msgstr ""
+
+#: admin/class-api-fetch-twitter-admin.php:86
+#: admin/class-api-fetch-twitter-admin.php:115
+msgid "API Settings"
+msgstr ""
+
+#. Description of the plugin
+msgid "Fetch and Display Tweets and Retweets"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://cba-records.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "Matthew Lee"
+msgstr ""
+
+#: admin/class-api-fetch-twitter-admin-twitter.php:62
+msgid "Please Add API details or/and a User Name"
+msgstr ""
+
+#: admin/class-api-fetch-twitter-admin.php:173
+msgid ""
+"To display tweets simply add the shortcode [api-fetch-twitter] to your "
+"sidebar"
+msgstr ""
+
+#: includes/class-api-fetch-twitter-activator.php:42
+msgid "Twitter Access Secret"
+msgstr ""
+
+#: includes/class-api-fetch-twitter-activator.php:41
+msgid "Twitter Access Token"
+msgstr ""
+
+#: includes/class-api-fetch-twitter-activator.php:39
+msgid "Twitter API Key"
+msgstr ""
+
+#: includes/class-api-fetch-twitter-activator.php:40
+msgid "Twitter API Secret"
+msgstr ""
+
+#: admin/class-api-fetch-twitter-admin.php:123
+msgid "User ID"
+msgstr ""
+
+#: admin/class-api-fetch-twitter-admin.php:122
+msgid "User Name"
+msgstr ""
